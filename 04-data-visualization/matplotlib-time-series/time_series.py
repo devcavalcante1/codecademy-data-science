@@ -1,4 +1,4 @@
-import codecademylib3_seaborn
+#import codecademylib3_seaborn
 from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
@@ -34,3 +34,11 @@ y_lower = [i - (i * 0.15) for i in viewers_hour]
 plt.fill_between(hour, y_lower, y_upper, alpha=0.2)
 
 plt.show()
+
+import matplotlib
+import numpy
+import pandas
+
+print("Matplotlib:", matplotlib.__version__)
+print("NumPy:", numpy.__version__)
+print("Pandas:", pandas.__version__)
